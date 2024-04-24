@@ -1,0 +1,123 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff00; /* Sage green background */
+
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #3d3d3d; /* Pink background */
+
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #b9d3c2; /* Pink background */
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    color: #3d3d3d; /* Dark olive green link color */
+
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #3d3d3d; /* Pink background */
+
+}
+
+.profile_image {
+    border-radius: 50%; /* Makes the photo circular */
+    max-width: 200px; /* Sets the maximum width of the photo */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Centers the photo and adds bottom margin */
+}
+
+.berkeleyspot {
+    border-radius: 5%;
+    max-width: 150px; /* Sets the maximum width of the photo */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Ensures proper alignment */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.project_descript {
+    max-width: 40ch;
+}
+
+a {
+    color: #6b8e23; /* Dark olive green link color */
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.text {
+    flex: 1; /* Take up remaining space */
+}
+
+.photo {
+    flex: 1; /* Take up remaining space */
+    margin-top: 20px
+}
+
+.container {
+    margin-top: 20px; /* Adjust the value as needed */
+    margin-right: 100px;
+    margin-left: 200px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.portfolio-item {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
